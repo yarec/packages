@@ -2,7 +2,7 @@
 
 [](dependency)
 ```clojure
-[cljsjs/semantic "2.1.4-0"] ;; latest release
+[yarec/semantic "2.1.4-0"] ;; latest release
 ```
 [](/dependency)
 

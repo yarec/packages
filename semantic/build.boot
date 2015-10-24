@@ -8,18 +8,18 @@
          '[cljsjs.boot-cljsjs.packaging :refer :all])
 
 (def semantic-version "2.1.4")
-(def +version+ (str semantic-version "-0"))
+(def +version+ (str semantic-version "-1"))
 (bootlaces! +version+)
 
 (task-options!
-  pom {:project     'cljsjs/semantic
+  pom {:project     'yarec/semantic
        :version     +version+
        :description "semantic ui"
        :url         "https://www.semantic-ui.com"
-       :scm         {:url "https://github.com/cljsjs/packages"}
+       :scm         {:url "https://github.com/yarec/packages"}
        :license     {"Apache-2.0" "http://opensource.org/licenses/Apache-2.0"}})
 
 (deftask package []
-  (deps-cljs :name "cljsjs.semantic"
+  (deps-cljs :name "yarec.semantic"
              :requires ["cljsjs.jquery"]))
 

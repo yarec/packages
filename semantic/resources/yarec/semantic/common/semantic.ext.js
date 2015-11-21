@@ -7,6 +7,8 @@ jQuery.prototype.dropdown = function(opt_eventOrOptions) {};
 
 jQuery.prototype.modal = function(opt_eventOrOptions) {};
 
+jQuery.prototype.checkbox = function(opt_eventOrOptions) {};
+
 
 var tinymce;
 

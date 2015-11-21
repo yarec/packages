@@ -1,0 +1,2 @@
+ver=$1
+mvn deploy:deploy-file -DpomFile=META-INF/maven/yarec/semantic/pom.xml -Dfile=semantic-2.1.4-$ver.jar -Durl=https://clojars.org/repo -DrepositoryId=clojars

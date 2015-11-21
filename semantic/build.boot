@@ -8,7 +8,7 @@
          '[cljsjs.boot-cljsjs.packaging :refer :all])
 
 (def semantic-version "2.1.4")
-(def +version+ (str semantic-version "-1"))
+(def +version+ (str semantic-version "-3"))
 (bootlaces! +version+)
 
 (task-options!
